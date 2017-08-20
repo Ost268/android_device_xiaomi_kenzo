@@ -287,7 +287,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    GoogleCamera \
     camera.msm8952 \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
