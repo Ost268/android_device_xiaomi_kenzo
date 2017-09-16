@@ -284,7 +284,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCamera \
+    Camera2 \
     camera.msm8952 \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
