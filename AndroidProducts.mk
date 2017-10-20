@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/screwd_kenzo.mk
+    $(LOCAL_DIR)/aosp_kenzo.mk
