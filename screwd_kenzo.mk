@@ -20,13 +20,13 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Vendor
 TARGET_ARCH := arm64
-$(call inherit-product-if-exists, vendor/aosp/config.mk)
+$(call inherit-product-if-exists, vendor/screwd/main.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_kenzo
+PRODUCT_NAME := screwd_kenzo
 PRODUCT_DEVICE := kenzo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
